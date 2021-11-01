@@ -1,0 +1,45 @@
+#main #banner {
+    background-image: url(../img/bg-contact-header.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 130px 0px;
+    color: white;
+    text-align: center;
+}
+
+#main #banner h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#main #banner h4 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#products {
+    .card {
+        position: relative;
+        img {
+            max-height: 350px;
+        }
+        .card-body {
+            h5 {}
+            p {}
+            a {}
+        }
+        .icons {
+            position: absolute;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 15px;
+            i {
+                font-size: 25px;
+                cursor: pointer;
+            }
+        }
+    }
+}
